@@ -73,5 +73,5 @@ cut -d: -f1 /etc/passwd | xargs -n1 groups
 | List groups for a user       | `groups <username>`                           |
 | List all users and groups    | `cut -d: -f1 /etc/passwd \| xargs -n1 groups` |
 
-Let me know if you want to list all groups with all their members in a structured format (e.g., JSON or table).
+
 
